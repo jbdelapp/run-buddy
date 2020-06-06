@@ -49,7 +49,7 @@ footer {
 
 footer h2 {
     display: inline; 
-    color: #02e76;
+    color: #024e76 ;
     font-size: 20px;
     margin: 0;
 }
@@ -80,7 +80,7 @@ footer a {
     color: #024e76;
 }
 .hero-form {
-    ...border: solid 3px #024e76;
+    border: solid 3px #024e76;
 }
 
 .hero-form {
@@ -173,12 +173,17 @@ footer a {
     border-color: #39a6b2;
 }
 
+.trainers {
+    text-align: center;
+}
+
 .trainer {
+    height: 60px;
     width: 900px;
     margin: 0 auto 30px auto;
     background: #024e76;
     color: #fce138;
-    overflow: auto;
+    margin: 0 auto 30px auto;
 }
 
 .trainer img {
@@ -189,7 +194,5 @@ footer a {
 .trainer-bio {
     padding: 35px;
     float: left;
-    width: 65%;
+    width: 60%;
 }
-
-
